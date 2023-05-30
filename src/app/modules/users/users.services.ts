@@ -1,9 +1,9 @@
-import config from '../../../../config/index'
+import config from '../../../config/index'
 import { UserInterface } from './users.interfaces'
 import { User } from './users.models'
 import { generateUserId } from './users.utils'
 
-const createUser = async (
+export const createUser = async (
   user: UserInterface
 ): Promise<UserInterface | null> => {
   const id = await generateUserId()
@@ -16,8 +16,4 @@ const createUser = async (
     throw new Error('Failed to create user!')
   }
   return createdUser
-}
-
-export default {
-  createUser,
 }
