@@ -1,0 +1,24 @@
+{
+  message: 'Database not connected',
+  error: MongoServerError: bad auth : authentication failed
+      at Connection.onMessage (G:\Mission-3 (Project)\University-Management-App\node_modules\mongodb\src\cmap\connection.ts:413:18)
+      at MessageStream.<anonymous> (G:\Mission-3 (Project)\University-Management-App\node_modules\mongodb\src\cmap\connection.ts:243:56)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (G:\Mission-3 (Project)\University-Management-App\node_modules\mongodb\src\cmap\message_stream.ts:187:12)
+      at MessageStream._write (G:\Mission-3 (Project)\University-Management-App\node_modules\mongodb\src\cmap\message_stream.ts:68:5)
+      at writeOrBuffer (node:internal/streams/writable:392:12)
+      at _write (node:internal/streams/writable:333:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:337:10)
+      at TLSSocket.ondata (node:internal/streams/readable:766:22)
+      at TLSSocket.emit (node:events:513:28) {
+    ok: 0,
+    code: 8000,
+    codeName: 'AtlasError',
+    connectionGeneration: 0,
+    [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-09T18:59:28.892Z'
+}
