@@ -3,418 +3,292 @@
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:32:12.695Z'
+  timestamp: '2023-06-15T18:03:34.875Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:32:12.727Z'
+  timestamp: '2023-06-15T18:03:34.891Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:33:20.842Z'
+  timestamp: '2023-06-15T18:03:47.223Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:33:20.865Z'
+  timestamp: '2023-06-15T18:03:47.234Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:34:50.128Z'
+  timestamp: '2023-06-15T18:05:00.502Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:34:50.144Z'
+  timestamp: '2023-06-15T18:05:00.516Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:35:12.655Z'
+  timestamp: '2023-06-15T18:06:01.726Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:35:12.670Z'
+  timestamp: '2023-06-15T18:06:01.744Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:35:18.679Z'
+  timestamp: '2023-06-15T18:06:14.855Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:35:18.701Z'
+  timestamp: '2023-06-15T18:06:14.870Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:36:24.084Z'
+  timestamp: '2023-06-15T18:06:26.388Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:36:24.107Z'
+  timestamp: '2023-06-15T18:06:26.401Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:36:36.990Z'
+  timestamp: '2023-06-15T18:06:36.635Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:36:37.009Z'
+  timestamp: '2023-06-15T18:06:36.647Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:36:55.092Z'
+  timestamp: '2023-06-15T18:07:00.544Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:36:55.116Z'
+  timestamp: '2023-06-15T18:07:00.558Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:37:49.458Z'
+  timestamp: '2023-06-15T18:16:05.953Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:37:49.475Z'
+  timestamp: '2023-06-15T18:16:05.970Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:37:59.745Z'
+  timestamp: '2023-06-15T18:16:34.311Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:37:59.762Z'
+  timestamp: '2023-06-15T18:16:34.330Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:04.535Z'
+  timestamp: '2023-06-15T18:17:04.510Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:04.547Z'
+  timestamp: '2023-06-15T18:17:04.521Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:09.186Z'
+  timestamp: '2023-06-15T18:17:20.358Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:09.200Z'
+  timestamp: '2023-06-15T18:17:20.370Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:14.787Z'
+  timestamp: '2023-06-15T18:17:46.538Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:14.799Z'
+  timestamp: '2023-06-15T18:17:46.561Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:20.947Z'
+  timestamp: '2023-06-15T18:18:09.610Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:20.958Z'
+  timestamp: '2023-06-15T18:18:09.623Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:31.396Z'
+  timestamp: '2023-06-15T18:18:18.533Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:31.404Z'
+  timestamp: '2023-06-15T18:18:18.549Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:44.256Z'
+  timestamp: '2023-06-15T18:18:24.115Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:44.280Z'
+  timestamp: '2023-06-15T18:18:24.134Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:50.045Z'
+  timestamp: '2023-06-15T18:18:44.462Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:38:50.068Z'
+  timestamp: '2023-06-15T18:18:44.483Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:39:44.802Z'
+  timestamp: '2023-06-15T18:18:59.798Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:39:44.818Z'
+  timestamp: '2023-06-15T18:18:59.818Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:40:30.338Z'
+  timestamp: '2023-06-15T18:20:44.975Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:40:30.353Z'
+  timestamp: '2023-06-15T18:20:44.996Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:42:41.129Z'
+  timestamp: '2023-06-15T18:59:26.891Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:42:41.149Z'
+  timestamp: '2023-06-15T18:59:26.923Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:42:50.047Z'
+  timestamp: '2023-06-15T18:59:35.222Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T17:42:50.060Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:44:33.031Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:44:43.392Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:44:50.931Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:44:50.942Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:45:53.797Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:45:53.812Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:55:42.064Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:55:42.076Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:55:57.854Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:55:57.876Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:56:07.791Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:56:07.806Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:56:10.904Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:56:10.928Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:56:25.539Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:56:25.551Z'
-}
-{
-  message: 'Database connected',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:56:32.459Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T17:56:32.480Z'
+  timestamp: '2023-06-15T18:59:35.238Z'
 }
