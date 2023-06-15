@@ -1,13 +1,10 @@
-import { Model, Schema, model } from 'mongoose'
-import { UserInterface } from './users.interfaces'
-
-type UserModel = Model<UserInterface, object>
+import { Schema, model } from 'mongoose'
+import { UserInterface, UserModel } from './usersinterfaces'
 
 const userSchema = new Schema<UserInterface>(
   {
     id: {
       type: String,
-      required: true,
       unique: true,
     },
     role: {
@@ -16,7 +13,6 @@ const userSchema = new Schema<UserInterface>(
     },
     password: {
       type: String,
-      required: true,
     },
   },
   {
