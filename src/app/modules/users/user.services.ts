@@ -2,7 +2,7 @@ import config from '../../../config/index'
 import ApiError from '../../../errors/ApiError'
 import { User } from './user.models'
 import { generateUserId } from './user.utils'
-import { UserInterface } from './usersinterfaces'
+import { UserInterface } from './users.interfaces'
 
 const createUser = async (
   user: UserInterface

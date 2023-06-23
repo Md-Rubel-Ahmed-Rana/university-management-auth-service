@@ -1,0 +1,28 @@
+{
+  message: 'Database not connected',
+  error: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ECONNREFUSED',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-23T19:04:06.097Z'
+}
+{
+  message: 'Database not connected',
+  error: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ECONNREFUSED',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-23T19:04:08.171Z'
+}

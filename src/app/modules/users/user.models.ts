@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose'
-import { UserInterface, UserModel } from './usersinterfaces'
+import { UserInterface, UserModel } from './users.interfaces'
 
 const userSchema = new Schema<UserInterface>(
   {
