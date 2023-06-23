@@ -278,3 +278,17 @@
   label: 'PH',
   timestamp: '2023-06-23T19:22:22.128Z'
 }
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-23T19:27:42.783Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-23T19:27:42.798Z'
+}
