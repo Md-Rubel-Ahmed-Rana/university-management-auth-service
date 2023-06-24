@@ -1,65 +1,85 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\.a3b7197052738315c8cabfde105e01c0a35b8ae7-audit.json",
-  "files": [
-    {
-      "date": 1686844251612,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-15-21-success.log",
-      "hash": "1bdf7c5117b6fb58b37085a0d6db80181df7bf4238dc2ecfcc86647306dc4337"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1686846282978,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-15-22-success.log",
-      "hash": "184580679540fea4a698844b81cb6ce6ac8e3dec1487a07b8e4404f888517413"
-    },
-    {
-      "date": 1686850329788,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-15-23-success.log",
-      "hash": "55e81395521763be8d41963e56531581fb8eabf5ff738dc555124e84e9ec136b"
-    },
-    {
-      "date": 1686852208419,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-16-00-success.log",
-      "hash": "45e061e5db972aec81852985ded77e57bdd3c7756f811f3782c60b9d7917ce8e"
-    },
-    {
-      "date": 1686855640125,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-16-01-success.log",
-      "hash": "19e17c6bd5ed75699691b96ae2f3be11ad615f9d0150c6dd5a73f00769380223"
-    },
-    {
-      "date": 1687279128002,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-20-22-success.log",
-      "hash": "4c8b19bf3c7e404541af91c811c8785bf6d79a2761dd1fa7f1aa479e94f7e967"
-    },
-    {
-      "date": 1687284805245,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-21-00-success.log",
-      "hash": "e233b1edfd3201917ae6d7ad0fa71e422fc43b3ddc5cc9c2b04a39d35b0ff2df"
-    },
-    {
-      "date": 1687287601211,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-21-01-success.log",
-      "hash": "c842b0d004f409dbc3b16ec3769be9a9da9edf42212876302ac1040495eeaa7b"
-    },
-    {
-      "date": 1687537279988,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-23-22-success.log",
-      "hash": "303b036c69230d7a4d382f59d6842e94bb22b28c39e496719ff0bbfcf0c17e6a"
-    },
-    {
-      "date": 1687545502581,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-24-00-success.log",
-      "hash": "75e31979cd52e06a0ff8fb35b31f9daadc2bfe8583bc5c634277f61bce21d77e"
-    },
-    {
-      "date": 1687546804382,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-24-01-success.log",
-      "hash": "4cce58fc53236cfbcd31d4565eb33a6f2220fa108acf2c3e21d250656ba41c9d"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\.a3b7197052738315c8cabfde105e01c0a35b8ae7-audit.json",
+    "files": [
+        {
+            "date": 1686844251612,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-15-21-success.log",
+            "hash": "1bdf7c5117b6fb58b37085a0d6db80181df7bf4238dc2ecfcc86647306dc4337"
+        },
+        {
+            "date": 1686846282978,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-15-22-success.log",
+            "hash": "184580679540fea4a698844b81cb6ce6ac8e3dec1487a07b8e4404f888517413"
+        },
+        {
+            "date": 1686850329788,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-15-23-success.log",
+            "hash": "55e81395521763be8d41963e56531581fb8eabf5ff738dc555124e84e9ec136b"
+        },
+        {
+            "date": 1686852208419,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-16-00-success.log",
+            "hash": "45e061e5db972aec81852985ded77e57bdd3c7756f811f3782c60b9d7917ce8e"
+        },
+        {
+            "date": 1686855640125,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-16-01-success.log",
+            "hash": "19e17c6bd5ed75699691b96ae2f3be11ad615f9d0150c6dd5a73f00769380223"
+        },
+        {
+            "date": 1687279128002,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-20-22-success.log",
+            "hash": "4c8b19bf3c7e404541af91c811c8785bf6d79a2761dd1fa7f1aa479e94f7e967"
+        },
+        {
+            "date": 1687284805245,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-21-00-success.log",
+            "hash": "e233b1edfd3201917ae6d7ad0fa71e422fc43b3ddc5cc9c2b04a39d35b0ff2df"
+        },
+        {
+            "date": 1687287601211,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-21-01-success.log",
+            "hash": "c842b0d004f409dbc3b16ec3769be9a9da9edf42212876302ac1040495eeaa7b"
+        },
+        {
+            "date": 1687537279988,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-23-22-success.log",
+            "hash": "303b036c69230d7a4d382f59d6842e94bb22b28c39e496719ff0bbfcf0c17e6a"
+        },
+        {
+            "date": 1687545502581,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-24-00-success.log",
+            "hash": "75e31979cd52e06a0ff8fb35b31f9daadc2bfe8583bc5c634277f61bce21d77e"
+        },
+        {
+            "date": 1687546804382,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-24-01-success.log",
+            "hash": "4cce58fc53236cfbcd31d4565eb33a6f2220fa108acf2c3e21d250656ba41c9d"
+        },
+        {
+            "date": 1687620789320,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-24-21-success.log",
+            "hash": "cd480ece48a20f4a6873738ae0176d686b6bb8165643f8982aa16b6198aec40d"
+        },
+        {
+            "date": 1687626696402,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-24-23-success.log",
+            "hash": "1e859d979b7118503efaad3feb9d9d71f3fa7d74b99ae94c667a997260a0d15d"
+        },
+        {
+            "date": 1687636799928,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-25-01-success.log",
+            "hash": "ecf08966def0576a3d37c8655ecbef103a7f9152ac0b6fb1eae023e93f0e38e0"
+        },
+        {
+            "date": 1687636802292,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\successes\\phu-2023-06-25-02-success.log",
+            "hash": "c546cb5765d3f35d9e81673cba89494c05166a257380d053fb750126661cb3cc"
+        }
+    ],
+    "hashType": "sha256"
 }

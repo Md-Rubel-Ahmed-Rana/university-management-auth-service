@@ -1,65 +1,80 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\.e7250d1ad1e5b7f57497da8a7970690bbee27ff7-audit.json",
-  "files": [
-    {
-      "date": 1686844251628,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-15-21-error.log",
-      "hash": "2f535a43412cc572dc572d03a3671a05067d3c221f6648911d2efefc03585286"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1686846282986,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-15-22-error.log",
-      "hash": "b2d91b5adb71ce98f072ea5f544357e509bfd4cd997fe57c0ecefe639a5d12e8"
-    },
-    {
-      "date": 1686850329814,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-15-23-error.log",
-      "hash": "083cb6369563ec92b890673e664899cb4025cb441771689b06ff182beebb6226"
-    },
-    {
-      "date": 1686852208428,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-16-00-error.log",
-      "hash": "5060dc92b3d82ebdcdf74724b45380a56ef55b9680c2b4595a3cb83f81d46e38"
-    },
-    {
-      "date": 1686855640137,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-16-01-error.log",
-      "hash": "2a34ac98f549f75af42ca45318682e587aa073d28bb7a410decb9a0a69e26688"
-    },
-    {
-      "date": 1687279128028,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-20-22-error.log",
-      "hash": "ab11bcd1905573c167b0caf570ada0347cbe7f65dda19573600117d4e7e12885"
-    },
-    {
-      "date": 1687284805256,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-21-00-error.log",
-      "hash": "7830611c92d27914f0b5aedc930aee0171155262b661caf7c53159b6dad212af"
-    },
-    {
-      "date": 1687287601246,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-21-01-error.log",
-      "hash": "f74c25315c7807b3aaa08042029c7d0e52a9ccea94c2785a08adc57d349a7f45"
-    },
-    {
-      "date": 1687537280016,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-23-22-error.log",
-      "hash": "1d1bd6eed61e5e2b34e16de7ca49774b186a0f9bedcd1f3d01c45e17342d0452"
-    },
-    {
-      "date": 1687545502616,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-24-00-error.log",
-      "hash": "3dbcba7c62761a849b9dfc924f65ad8d43599a2a407a1fe11fd957161294efb4"
-    },
-    {
-      "date": 1687546804392,
-      "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-24-01-error.log",
-      "hash": "aa296ce39d057bc464a6b854bce57c8d8f29a58893201d541947cf0e97211611"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\.e7250d1ad1e5b7f57497da8a7970690bbee27ff7-audit.json",
+    "files": [
+        {
+            "date": 1686844251628,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-15-21-error.log",
+            "hash": "2f535a43412cc572dc572d03a3671a05067d3c221f6648911d2efefc03585286"
+        },
+        {
+            "date": 1686846282986,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-15-22-error.log",
+            "hash": "b2d91b5adb71ce98f072ea5f544357e509bfd4cd997fe57c0ecefe639a5d12e8"
+        },
+        {
+            "date": 1686850329814,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-15-23-error.log",
+            "hash": "083cb6369563ec92b890673e664899cb4025cb441771689b06ff182beebb6226"
+        },
+        {
+            "date": 1686852208428,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-16-00-error.log",
+            "hash": "5060dc92b3d82ebdcdf74724b45380a56ef55b9680c2b4595a3cb83f81d46e38"
+        },
+        {
+            "date": 1686855640137,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-16-01-error.log",
+            "hash": "2a34ac98f549f75af42ca45318682e587aa073d28bb7a410decb9a0a69e26688"
+        },
+        {
+            "date": 1687279128028,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-20-22-error.log",
+            "hash": "ab11bcd1905573c167b0caf570ada0347cbe7f65dda19573600117d4e7e12885"
+        },
+        {
+            "date": 1687284805256,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-21-00-error.log",
+            "hash": "7830611c92d27914f0b5aedc930aee0171155262b661caf7c53159b6dad212af"
+        },
+        {
+            "date": 1687287601246,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-21-01-error.log",
+            "hash": "f74c25315c7807b3aaa08042029c7d0e52a9ccea94c2785a08adc57d349a7f45"
+        },
+        {
+            "date": 1687537280016,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-23-22-error.log",
+            "hash": "1d1bd6eed61e5e2b34e16de7ca49774b186a0f9bedcd1f3d01c45e17342d0452"
+        },
+        {
+            "date": 1687545502616,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-24-00-error.log",
+            "hash": "3dbcba7c62761a849b9dfc924f65ad8d43599a2a407a1fe11fd957161294efb4"
+        },
+        {
+            "date": 1687546804392,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-24-01-error.log",
+            "hash": "aa296ce39d057bc464a6b854bce57c8d8f29a58893201d541947cf0e97211611"
+        },
+        {
+            "date": 1687620789337,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-24-21-error.log",
+            "hash": "a8341867228709fb4268892e370c3c4c4d0e0fcfa50bcbefc3f4fe3f3165a7f0"
+        },
+        {
+            "date": 1687626696428,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-24-23-error.log",
+            "hash": "3ab3dd645bd572e801bdb8d51fab9373088eddbb8229fb71d60543e583feaebc"
+        },
+        {
+            "date": 1687636799949,
+            "name": "G:\\Mission-3 (Project)\\UM-App\\logs\\winston\\errors\\phu-2023-06-25-01-error.log",
+            "hash": "87870380ba7e22b91b37888180912a107a8bd0e984ac27f6fdff650840b68c1f"
+        }
+    ],
+    "hashType": "sha256"
 }
