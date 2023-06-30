@@ -7,7 +7,6 @@ import { AcademicSemesterService } from './academicSemester.service';
 const createSemester = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
     const result = await AcademicSemesterService.createSemester(req.body);
-    next();
     const resData = {
       statusCode: httpStatus.OK,
       success: true,
@@ -15,6 +14,7 @@ const createSemester = catchAsync(
       data: result,
     };
     sendResponse(res, resData);
+    next();
   }
 );
 

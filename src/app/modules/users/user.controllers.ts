@@ -5,7 +5,6 @@ import { UserService } from './user.services';
 
 const createUser = catchAsync(async (req, res, next) => {
   const result = await UserService.createUser(req.body);
-  next();
   res.status(200).json();
   const resData = {
     statusCode: httpStatus.OK,
@@ -14,6 +13,7 @@ const createUser = catchAsync(async (req, res, next) => {
     data: result,
   };
   sendResponse(res, resData);
+  next();
 });
 
 export const UserController = {
