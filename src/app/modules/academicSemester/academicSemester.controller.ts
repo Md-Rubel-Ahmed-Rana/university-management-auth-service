@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
 import { pagination } from '../../../constants/pagination';
@@ -22,7 +23,9 @@ const createSemester = catchAsync(
 
 const getAllSemester = catchAsync(async (req: Request, res: Response) => {
   const paginationOptions = pick(req.query, pagination);
+  const filters: any = pick(req.query, ['searchTerm']);
   const result = await AcademicSemesterService.getAllSemester(
+    filters,
     paginationOptions
   );
   const resData = {
