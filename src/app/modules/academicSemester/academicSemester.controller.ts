@@ -5,6 +5,7 @@ import { pagination } from '../../../constants/pagination';
 import sendResponse from '../../../shared/SendResponse';
 import catchAsync from '../../../shared/catchAsync';
 import pick from '../../../shared/pick';
+import { filterableFields } from './academicSemester.constants';
 import { AcademicSemesterService } from './academicSemester.service';
 
 const createSemester = catchAsync(
@@ -23,7 +24,7 @@ const createSemester = catchAsync(
 
 const getAllSemester = catchAsync(async (req: Request, res: Response) => {
   const paginationOptions = pick(req.query, pagination);
-  const filters: any = pick(req.query, ['searchTerm']);
+  const filters: any = pick(req.query, filterableFields);
   const result = await AcademicSemesterService.getAllSemester(
     filters,
     paginationOptions
