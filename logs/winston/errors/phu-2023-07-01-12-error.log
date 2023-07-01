@@ -16,3 +16,55 @@
   timestamp: '2023-07-01T06:08:46.868Z',
   [Symbol(errorLabels)]: Set(0) {}
 }
+{
+  stringValue: '"649afbdd2913221a080"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '649afbdd2913221a080',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (G:\Mission-3 (Project)\UM-App\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOne (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\query.js:2497:8)
+      at model.Query.exec (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-01T06:34:44.329Z'
+}
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-01T06:52:10.275Z'
+}
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-01T06:53:42.611Z'
+}

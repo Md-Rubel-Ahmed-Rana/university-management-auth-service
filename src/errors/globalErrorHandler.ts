@@ -2,12 +2,13 @@
 /* eslint-disable no-unused-expressions */
 import { ErrorRequestHandler } from 'express';
 import { ZodError } from 'zod';
-import config from '../../config';
-import ApiError from '../../errors/ApiError';
-import handleValidationError from '../../errors/handleValidationError';
-import handleZodError from '../../errors/handleZodError';
-import { IGenericErrorMessage } from '../../interfaces/error';
-import { errorLogger } from '../../shared/logger';
+import config from '../config';
+import { IGenericErrorMessage } from '../interfaces/error';
+import { errorLogger } from '../shared/logger';
+import ApiError from './ApiError';
+import handleCastError from './handleCastError';
+import handleValidationError from './handleValidationError';
+import handleZodError from './handleZodError';
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   console.log(next);
@@ -21,6 +22,13 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
 
   if (error?.name === 'ValidationError') {
     const simplifiedError = handleValidationError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
+  }
+
+  if (error?.name === 'CastError') {
+    const simplifiedError = handleCastError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
