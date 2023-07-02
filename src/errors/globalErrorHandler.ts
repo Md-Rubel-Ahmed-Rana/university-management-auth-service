@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable no-console */
 /* eslint-disable no-unused-expressions */
 import { ErrorRequestHandler } from 'express';
@@ -11,7 +12,6 @@ import handleValidationError from './handleValidationError';
 import handleZodError from './handleZodError';
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
-  console.log(next);
   let statusCode = 500;
   let message = 'Something went wrong';
   let errorMessages: IGenericErrorMessage[] = [];
