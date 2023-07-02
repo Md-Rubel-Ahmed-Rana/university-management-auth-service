@@ -1,14 +1,15 @@
 import config from '../../../config/index';
 import ApiError from '../../../errors/ApiError';
 import { User } from './user.models';
-import { generateUserId } from './user.utils';
+import { generateFacultyId } from './user.utils';
 import { UserInterface } from './users.interfaces';
 
 const createUser = async (
   user: UserInterface
 ): Promise<UserInterface | null> => {
-  const id = await generateUserId();
-  user.id = id;
+  // const semester: { code: string; year: string } = { code: '03', year: '2025' };
+  const id = await generateFacultyId();
+  user.id = id as string;
   if (!user.password) {
     user.password = config.default_user_password as string;
   }
