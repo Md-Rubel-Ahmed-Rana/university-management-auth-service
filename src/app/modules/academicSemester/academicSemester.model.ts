@@ -38,7 +38,12 @@ const AcademicSemesterSchema = new Schema<IAcademicSemester>(
       enum: academicSemesterMonth,
     },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
+  }
 );
 
 // prevent creating same year && same semester
