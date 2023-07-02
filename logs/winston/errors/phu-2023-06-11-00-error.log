@@ -1,0 +1,132 @@
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:20:02.573Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:25:43.779Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:26:31.780Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:26:59.685Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:35:33.216Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:44:09.634Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:44:19.226Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:44:29.025Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:44:36.018Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:44:44.632Z'
+}
+{
+  message: 'Database not connected',
+  error: TypeError: Cannot read properties of undefined (reading 'listen')
+      at G:\Mission-3 (Project)\University-Management-App\src\server.ts:10:9
+      at Generator.next (<anonymous>)
+      at fulfilled (G:\Mission-3 (Project)\University-Management-App\src\server.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-10T18:46:52.642Z'
+}

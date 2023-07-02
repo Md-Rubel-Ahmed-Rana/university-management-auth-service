@@ -1,0 +1,21 @@
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-02T19:09:13.684Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-02T19:10:47.289Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-02T19:11:14.831Z'
+}

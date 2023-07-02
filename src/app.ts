@@ -1,18 +1,50 @@
-import express, { Application, Request, Response } from 'express'
-import cors from 'cors'
-import userRouter from './app/modules/users/users.route'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import cors from 'cors';
+import express, { Application, NextFunction, Request, Response } from 'express';
+import httpStatus from 'http-status';
+import { generateFacultyId } from './app/modules/users/user.utils';
+import routes from './app/routes';
+import ApiError from './errors/ApiError';
+import globalErrorHandler from './errors/globalErrorHandler';
 
-const app: Application = express()
+const app: Application = express();
 
-app.use(cors())
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // base route
 app.get('/', async (req: Request, res: Response) => {
-  res.send('University server is working fine!')
-})
+  res.send('<h1>University server is working fine!</h1>');
+});
 
+// test route
+app.get('/test', (req: Request, res: Response) => {
+  throw new ApiError(400, 'From API error');
+});
 // Application routes
-app.use('/api/v1/users/', userRouter)
-export default app
+app.use('/api/v1', routes);
+
+// global error handler
+app.use(globalErrorHandler);
+
+// 404 not found route error handler
+app.use('*', (req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'Not found',
+    errorMessages: [
+      {
+        path: req.originalUrl,
+        message: 'API not found',
+      },
+    ],
+  });
+});
+
+const testId = async () => {
+  const generatedId = await generateFacultyId();
+  console.log(generatedId);
+};
+testId();
+export default app;

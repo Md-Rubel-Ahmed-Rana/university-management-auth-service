@@ -1,0 +1,93 @@
+{
+  message: 'Database not connected',
+  error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+      at _handleConnectionErrors (G:\Mission-3 (Project)\University-Management-App\node_modules\mongoose\lib\connection.js:792:11)
+      at NativeConnection.openUri (G:\Mission-3 (Project)\University-Management-App\node_modules\mongoose\lib\connection.js:767:11)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    reason: TopologyDescription {
+      type: 'ReplicaSetNoPrimary',
+      servers: Map(3) {
+        'ac-e9xbzbw-shard-00-01.n72f5gi.mongodb.net:27017' => ServerDescription {
+          address: 'ac-e9xbzbw-shard-00-01.n72f5gi.mongodb.net:27017',
+          type: 'Unknown',
+          hosts: [],
+          passives: [],
+          arbiters: [],
+          tags: {},
+          minWireVersion: 0,
+          maxWireVersion: 0,
+          roundTripTime: -1,
+          lastUpdateTime: 200534785,
+          lastWriteDate: 0,
+          error: null,
+          topologyVersion: null,
+          setName: null,
+          setVersion: null,
+          electionId: null,
+          logicalSessionTimeoutMinutes: null,
+          primary: null,
+          me: null,
+          '$clusterTime': null
+        },
+        'ac-e9xbzbw-shard-00-02.n72f5gi.mongodb.net:27017' => ServerDescription {
+          address: 'ac-e9xbzbw-shard-00-02.n72f5gi.mongodb.net:27017',
+          type: 'Unknown',
+          hosts: [],
+          passives: [],
+          arbiters: [],
+          tags: {},
+          minWireVersion: 0,
+          maxWireVersion: 0,
+          roundTripTime: -1,
+          lastUpdateTime: 200534785,
+          lastWriteDate: 0,
+          error: null,
+          topologyVersion: null,
+          setName: null,
+          setVersion: null,
+          electionId: null,
+          logicalSessionTimeoutMinutes: null,
+          primary: null,
+          me: null,
+          '$clusterTime': null
+        },
+        'ac-e9xbzbw-shard-00-00.n72f5gi.mongodb.net:27017' => ServerDescription {
+          address: 'ac-e9xbzbw-shard-00-00.n72f5gi.mongodb.net:27017',
+          type: 'Unknown',
+          hosts: [],
+          passives: [],
+          arbiters: [],
+          tags: {},
+          minWireVersion: 0,
+          maxWireVersion: 0,
+          roundTripTime: -1,
+          lastUpdateTime: 200534785,
+          lastWriteDate: 0,
+          error: null,
+          topologyVersion: null,
+          setName: null,
+          setVersion: null,
+          electionId: null,
+          logicalSessionTimeoutMinutes: null,
+          primary: null,
+          me: null,
+          '$clusterTime': null
+        }
+      },
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: 'atlas-q9ukq6-shard-0',
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: null
+    },
+    code: undefined
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-14T18:29:58.157Z'
+}

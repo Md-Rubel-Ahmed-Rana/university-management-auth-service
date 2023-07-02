@@ -1,0 +1,143 @@
+{
+  message: 'Database not connected',
+  error: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ECONNREFUSED',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-27T14:09:57.206Z'
+}
+{
+  message: 'Database not connected',
+  error: MongooseServerSelectionError: Server selection timed out after 30000 ms
+      at _handleConnectionErrors (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\connection.js:792:11)
+      at NativeConnection.openUri (G:\Mission-3 (Project)\UM-App\node_modules\mongoose\lib\connection.js:767:11)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    reason: TopologyDescription {
+      type: 'ReplicaSetNoPrimary',
+      servers: Map(3) {
+        'ac-e9xbzbw-shard-00-02.n72f5gi.mongodb.net:27017' => ServerDescription {
+          address: 'ac-e9xbzbw-shard-00-02.n72f5gi.mongodb.net:27017',
+          type: 'RSSecondary',
+          hosts: [
+            'ac-e9xbzbw-shard-00-00.n72f5gi.mongodb.net:27017',
+            'ac-e9xbzbw-shard-00-01.n72f5gi.mongodb.net:27017',
+            'ac-e9xbzbw-shard-00-02.n72f5gi.mongodb.net:27017'
+          ],
+          passives: [],
+          arbiters: [],
+          tags: {
+            provider: 'AWS',
+            nodeType: 'ELECTABLE',
+            workloadType: 'OPERATIONAL',
+            region: 'AP_SOUTH_1'
+          },
+          minWireVersion: 0,
+          maxWireVersion: 17,
+          roundTripTime: 733.3199999999999,
+          lastUpdateTime: 330057690,
+          lastWriteDate: 2023-06-27T14:10:50.000Z,
+          error: null,
+          topologyVersion: {
+            processId: new ObjectId("64995b68005b29a95349a3c7"),
+            counter: 3
+          },
+          setName: 'atlas-q9ukq6-shard-0',
+          setVersion: 3,
+          electionId: null,
+          logicalSessionTimeoutMinutes: 30,
+          primary: 'ac-e9xbzbw-shard-00-01.n72f5gi.mongodb.net:27017',
+          me: 'ac-e9xbzbw-shard-00-02.n72f5gi.mongodb.net:27017',
+          '$clusterTime': {
+            clusterTime: new Timestamp({ t: 1687875050, i: 10 }),
+            signature: {
+              hash: Binary.createFromBase64("x7+nqZlOlNClZZCdlMwAFcgvDCU=", 0),
+              keyId: new Long("7215630256546250754")
+            }
+          }
+        },
+        'ac-e9xbzbw-shard-00-01.n72f5gi.mongodb.net:27017' => ServerDescription {
+          address: 'ac-e9xbzbw-shard-00-01.n72f5gi.mongodb.net:27017',
+          type: 'Unknown',
+          hosts: [],
+          passives: [],
+          arbiters: [],
+          tags: {},
+          minWireVersion: 0,
+          maxWireVersion: 0,
+          roundTripTime: -1,
+          lastUpdateTime: 330035914,
+          lastWriteDate: 0,
+          error: null,
+          topologyVersion: null,
+          setName: null,
+          setVersion: null,
+          electionId: null,
+          logicalSessionTimeoutMinutes: null,
+          primary: null,
+          me: null,
+          '$clusterTime': null
+        },
+        'ac-e9xbzbw-shard-00-00.n72f5gi.mongodb.net:27017' => ServerDescription {
+          address: 'ac-e9xbzbw-shard-00-00.n72f5gi.mongodb.net:27017',
+          type: 'RSSecondary',
+          hosts: [
+            'ac-e9xbzbw-shard-00-00.n72f5gi.mongodb.net:27017',
+            'ac-e9xbzbw-shard-00-01.n72f5gi.mongodb.net:27017',
+            'ac-e9xbzbw-shard-00-02.n72f5gi.mongodb.net:27017'
+          ],
+          passives: [],
+          arbiters: [],
+          tags: {
+            provider: 'AWS',
+            nodeType: 'ELECTABLE',
+            region: 'AP_SOUTH_1',
+            workloadType: 'OPERATIONAL'
+          },
+          minWireVersion: 0,
+          maxWireVersion: 17,
+          roundTripTime: 13433.6,
+          lastUpdateTime: 330064441,
+          lastWriteDate: 2023-06-27T14:10:56.000Z,
+          error: null,
+          topologyVersion: {
+            processId: new ObjectId("6499595faed8c9a908a723d6"),
+            counter: 4
+          },
+          setName: 'atlas-q9ukq6-shard-0',
+          setVersion: 3,
+          electionId: null,
+          logicalSessionTimeoutMinutes: 30,
+          primary: 'ac-e9xbzbw-shard-00-01.n72f5gi.mongodb.net:27017',
+          me: 'ac-e9xbzbw-shard-00-00.n72f5gi.mongodb.net:27017',
+          '$clusterTime': {
+            clusterTime: new Timestamp({ t: 1687875056, i: 32 }),
+            signature: {
+              hash: Binary.createFromBase64("EavoB6YTBKETNYrDgUyJ+7IisZU=", 0),
+              keyId: new Long("7215630256546250754")
+            }
+          }
+        }
+      },
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: 'atlas-q9ukq6-shard-0',
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: 30
+    },
+    code: undefined
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-06-27T14:11:00.332Z'
+}
