@@ -19,4 +19,5 @@ semesterRouter.patch(
   AcademicSemesterController.updateSemester
 );
 
+semesterRouter.delete('/:id', AcademicSemesterController.deleteSemester);
 export const SemesterRoutes = semesterRouter;
