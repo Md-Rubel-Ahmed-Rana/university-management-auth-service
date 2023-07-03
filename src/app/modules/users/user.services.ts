@@ -1,18 +1,26 @@
 import config from '../../../config/index';
 import ApiError from '../../../errors/ApiError';
+import AcademicSemester from '../academicSemester/academicSemester.model';
+import { IStudent } from '../student/student.interface';
 import { User } from './user.models';
-import { generateFacultyId } from './user.utils';
+import { generateStudentId } from './user.utils';
 import { UserInterface } from './users.interfaces';
 
-const createUser = async (
+const createStudent = async (
+  student: IStudent,
   user: UserInterface
 ): Promise<UserInterface | null> => {
-  // const semester: { code: string; year: string } = { code: '03', year: '2025' };
-  const id = await generateFacultyId();
-  user.id = id as string;
   if (!user.password) {
-    user.password = config.default_user_password as string;
+    user.password = config.default_student_password as string;
   }
+
+  // set role
+  user.role = 'student';
+
+  const academicSemester = await AcademicSemester.findById(
+    student.academicSemester
+  );
+  const id = await generateStudentId(academicSemester);
   const createdUser = await User.create(user);
   if (!createdUser) {
     throw new ApiError(400, 'Failed to create user!');
@@ -21,5 +29,5 @@ const createUser = async (
 };
 
 export const UserService = {
-  createUser,
+  createStudent,
 };

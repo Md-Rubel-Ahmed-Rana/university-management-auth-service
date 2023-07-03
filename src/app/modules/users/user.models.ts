@@ -14,6 +14,18 @@ const userSchema = new Schema<UserInterface>(
     password: {
       type: String,
     },
+    student: {
+      type: Schema.Types.ObjectId,
+      ref: 'Student',
+    },
+    // faculty: {
+    //   type: Schema.Types.ObjectId,
+    //   ref: "Faculty"
+    // },
+    // admin: {
+    //   type: Schema.Types.ObjectId,
+    //   ref: "Admin"
+    // },
   },
   {
     timestamps: true,
