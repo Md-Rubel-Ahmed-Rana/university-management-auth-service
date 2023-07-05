@@ -58,7 +58,7 @@ const updateStudent = catchAsync(
       const resData = {
         statusCode: httpStatus.OK,
         success: true,
-        message: 'Student deleted successfully!',
+        message: 'Student updated successfully!',
         data: result,
       };
       sendResponse(res, resData);
