@@ -1,0 +1,11 @@
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Arts & Social Department' },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:39:24.806Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

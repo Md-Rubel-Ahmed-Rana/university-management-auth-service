@@ -5,6 +5,7 @@ const userSchema = new Schema<UserInterface>(
   {
     id: {
       type: String,
+      required: true,
       unique: true,
     },
     role: {

@@ -20,7 +20,6 @@ export const StudentSchema = new Schema<IStudent, IStudentModel>(
         type: String,
         required: true,
       },
-      required: true,
     },
     dateOfBirth: {
       type: String,
@@ -32,8 +31,7 @@ export const StudentSchema = new Schema<IStudent, IStudentModel>(
     },
     bloodGroup: {
       type: String,
-      required: true,
-      enum: ['A+' || 'A-' || 'B+' || 'B-' || 'AB+' || 'AB-' || 'O+' || 'O-'],
+      enum: 'A+' || 'A-' || 'B+' || 'B-' || 'AB+' || 'AB-' || 'O+' || 'O-',
     },
     email: {
       type: String,
@@ -58,7 +56,6 @@ export const StudentSchema = new Schema<IStudent, IStudentModel>(
       required: true,
     },
     guardian: {
-      required: true,
       type: {
         fatherName: {
           type: String,
@@ -91,7 +88,6 @@ export const StudentSchema = new Schema<IStudent, IStudentModel>(
       },
     },
     localGuardian: {
-      required: true,
       type: {
         name: {
           type: String,

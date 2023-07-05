@@ -3,26 +3,26 @@
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-07-03T19:06:14.982Z'
+  timestamp: '2023-07-05T15:11:03.437Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-07-03T19:06:14.997Z'
+  timestamp: '2023-07-05T15:11:03.459Z'
 }
 {
   message: 'Database connected',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-07-03T19:35:42.352Z'
+  timestamp: '2023-07-05T15:16:56.383Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-07-03T19:35:42.373Z'
+  timestamp: '2023-07-05T15:16:56.397Z'
 }
