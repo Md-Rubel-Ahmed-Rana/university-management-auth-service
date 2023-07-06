@@ -104,6 +104,11 @@
             "date": 1688667481601,
             "name": "I:\\Mission-3 (Project)\\UM-App2\\logs\\winston\\errors\\phu-2023-07-07-00-error.log",
             "hash": "89974fa03b00d7b6e5ac95af6d5f4b53622dde089254a9376913a663102361a0"
+        },
+        {
+            "date": 1688670373414,
+            "name": "I:\\Mission-3 (Project)\\UM-App2\\logs\\winston\\errors\\phu-2023-07-07-01-error.log",
+            "hash": "8082d5d6e87b25163159f135e7b8fb9cca267431e5187b5ff959af96902b9879"
         }
     ],
     "hashType": "sha256"

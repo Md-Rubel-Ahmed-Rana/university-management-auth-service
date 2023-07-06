@@ -56,11 +56,13 @@ export const FacultySchema = new Schema<IFaculty, IFacultyModel>({
     required: true,
   },
   academicDepartment: {
-    type: String,
+    type: Schema.Types.ObjectId,
+    ref: 'AcademicDepartment',
     required: true,
   },
   academicFaculty: {
-    type: String,
+    type: Schema.Types.ObjectId,
+    ref: 'AcademicFaculty',
     required: true,
   },
   profileImage: {

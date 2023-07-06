@@ -1,4 +1,4 @@
-import { Model } from 'mongoose';
+import { Model, Types } from 'mongoose';
 
 export type IFaculty = {
   id: string;
@@ -16,8 +16,8 @@ export type IFaculty = {
   presentAddress: string;
   permanentAddress: string;
   designation: string;
-  academicDepartment: string;
-  academicFaculty: string;
+  academicDepartment: Types.ObjectId;
+  academicFaculty: Types.ObjectId;
   profileImage: string;
 };
 export type IFacultyModel = Model<IFaculty, Record<string, unknown>>;
