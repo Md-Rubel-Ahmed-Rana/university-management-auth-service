@@ -1,0 +1,28 @@
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-03T19:06:14.982Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-03T19:06:14.997Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-03T19:35:42.352Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-03T19:35:42.373Z'
+}

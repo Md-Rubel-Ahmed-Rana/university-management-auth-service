@@ -1,0 +1,98 @@
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:05:54.782Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:05:54.809Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:37:56.331Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:37:56.349Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:40:19.226Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:40:19.242Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:48:02.821Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:48:02.844Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:57:35.014Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:57:35.033Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:58:19.298Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:58:19.314Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:58:54.210Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T17:58:54.228Z'
+}

@@ -1,0 +1,42 @@
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-04T18:28:02.434Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-04T18:30:29.448Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-04T18:45:51.466Z'
+}
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-04T18:48:14.118Z'
+}

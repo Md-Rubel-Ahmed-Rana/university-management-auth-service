@@ -1,0 +1,70 @@
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T16:02:04.013Z'
+}
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T16:22:38.597Z'
+}
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T16:38:50.621Z'
+}
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T16:47:24.484Z'
+}
+{
+  message: 'Database not connected',
+  error: Error: queryTxt ETIMEOUT cluster0.n72f5gi.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17) {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'queryTxt',
+    hostname: 'cluster0.n72f5gi.mongodb.net'
+  },
+  level: 'error',
+  service: 'user-service',
+  label: 'PH',
+  timestamp: '2023-07-05T16:57:27.201Z'
+}

@@ -2,7 +2,6 @@
 import cors from 'cors';
 import express, { Application, NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
-import { generateFacultyId } from './app/modules/users/user.utils';
 import routes from './app/routes';
 import ApiError from './errors/ApiError';
 import globalErrorHandler from './errors/globalErrorHandler';
@@ -42,9 +41,4 @@ app.use('*', (req: Request, res: Response, next: NextFunction) => {
   });
 });
 
-const testId = async () => {
-  const generatedId = await generateFacultyId();
-  console.log(generatedId);
-};
-testId();
 export default app;
