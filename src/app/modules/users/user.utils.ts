@@ -37,3 +37,20 @@ export const generateFacultyId = async (): Promise<string | undefined> => {
   incrementedId = `F-${incrementedId}`;
   return incrementedId;
 };
+
+export const findlastAdmin = async (): Promise<string | undefined> => {
+  const lastFaculty = await User.findOne({ role: 'admin' }, { id: 1, _id: 0 })
+    .sort({
+      createdAt: -1,
+    })
+    .lean();
+  return lastFaculty?.id.substring(2);
+};
+
+export const generateAdminId = async (): Promise<string | undefined> => {
+  const currentId = (await findlastAdmin()) || (0).toString().padStart(5, '0');
+
+  let incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0');
+  incrementedId = `A-${incrementedId}`;
+  return incrementedId;
+};

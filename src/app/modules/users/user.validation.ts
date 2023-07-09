@@ -129,6 +129,59 @@ const createUserZodSchema = z.object({
         profileImage: z.string().optional(),
       })
       .optional(),
+    admin: z
+      .object({
+        id: z
+          .string({
+            required_error: 'ID is required',
+          })
+          .optional(),
+        name: z.object({
+          firstName: z.string({
+            required_error: 'firstName is required',
+          }),
+          lastName: z.string({
+            required_error: 'LastName is required',
+          }),
+          middleName: z.string({
+            required_error: 'MiddleName is required',
+          }),
+        }),
+        dateOfBirth: z.string({
+          required_error: 'Date of birth is required',
+        }),
+        gender: z.string({
+          required_error: 'Gender is required',
+        }),
+        bloodGroup: z.string({
+          required_error: 'Blood group is required',
+        }),
+        email: z
+          .string({
+            required_error: 'Email is required',
+          })
+          .email(),
+        contactNo: z.string({
+          required_error: 'Contact no is required',
+        }),
+        emergencyContactNo: z.string({
+          required_error: 'Emergency Contact No is required',
+        }),
+        presentAddress: z.string({
+          required_error: 'Present address is required',
+        }),
+        permanentAddress: z.string({
+          required_error: 'Permanent address is required',
+        }),
+        designation: z.string({
+          required_error: 'Designation is required',
+        }),
+        managementDepartment: z.string({
+          required_error: 'Academic Department is required',
+        }),
+        profileImage: z.string().optional(),
+      })
+      .optional(),
   }),
 });
 
