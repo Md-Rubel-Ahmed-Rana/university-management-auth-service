@@ -5,6 +5,7 @@ const facultyRouter = Router();
 
 facultyRouter.get('/', FacultyController.getAllFaculties);
 facultyRouter.get('/:id', FacultyController.getSingleFaculty);
-facultyRouter.delete('/:id', FacultyController.deletdFaculty);
+facultyRouter.delete('/:id', FacultyController.deleteFaculty);
+facultyRouter.patch('/:id', FacultyController.updateFaculty);
 
 export const FacultyRoutes = facultyRouter;

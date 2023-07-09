@@ -21,3 +21,7 @@ export type IFaculty = {
   profileImage: string;
 };
 export type IFacultyModel = Model<IFaculty, Record<string, unknown>>;
+
+export type IFacultyFilter = {
+  searchTerm: string;
+};
